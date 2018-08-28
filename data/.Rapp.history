@@ -1,0 +1,3 @@
+load("/Users/lichen/Dropbox/projects/junproject/SICS-raw/codes/SICS/SICS/data/data.RData")
+ls()
+str(data_BAMMSC)

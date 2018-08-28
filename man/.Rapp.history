@@ -1,0 +1,2 @@
+load("/Users/lichen/Dropbox/projects/mcmc/package/BAMMSC/data/data_BAMMSC.RData")
+ls()

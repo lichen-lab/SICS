@@ -1,0 +1,13 @@
+Package: SICS
+Type: Package
+Title: Phylogeny-Constrained Regularization for Sparse Generalized Linear
+        Models
+Version: 1.0.0
+Date: 2018-08-27
+Author: Li Chen, Jun Chen
+Maintainer: Li Chen <li.chen@auburn.edu>
+Description: We propose to use sparse regression model to achieve variable selection while accounting for phylogeny-constraints among coefficients.
+License: GPL-2
+Depends: Rcpp (>= 0.11.0),Matrix, MASS
+LinkingTo: Rcpp, RcppArmadillo
+NeedsCompilation: yes
