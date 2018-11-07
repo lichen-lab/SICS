@@ -70,9 +70,15 @@ legend("bottomright",legend=paste('AUC:',auc),pch=16)
 <img src="figures/ROC.jpg" style="display: block; margin: auto;" />
 
 
-
-
-
-
+**3. Real data example**
+We first demonstrate two real data examples to compare SICS with other prediction methods. The following packages are
+required to be installed before running real data examples.
+``` r
+install.packages(c('ape','ade4','cluster','randomForest','glmnet','glmgraph','ncvreg'))
+install.packages('devtools')
+library(devtools)
+install_github("lichen-lab/SICS")
+install_github("lichen-lab/GMPR")
+```
 
 
