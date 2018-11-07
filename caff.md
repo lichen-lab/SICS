@@ -63,7 +63,6 @@ data_caff_norm$D=D
 
 # step5: perform random-sampling evaluation
 
-load('data_caff_norm.RData')
 x=data_caff_norm$x
 y=data_caff_norm$y
 D=data_caff_norm$D
