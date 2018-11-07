@@ -79,6 +79,8 @@ were used as metrics for prediction performance based on the testing set. SLS, L
 Random Forest are compared prediction methods.
 
 ```
+# Download library.R from github website, which contains functions of competing prediction methods and prediction assessment functions
+source('library.R')
 nrep=1 # dataset was randomly divided nrep, default is 50
 res=eval(x,y,D,family='gaussian',nrep=nrep,nfolds=5,seed=1234)
 res
