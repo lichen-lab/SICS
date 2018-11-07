@@ -56,17 +56,6 @@ x=otu.tab.win
 # step4: transformation
 x[x!=0]=sqrt(x[x!=0])
 y=qqnorm(caff)$x
-
-data_caff_norm=NULL
-data_caff_norm$x=x
-data_caff_norm$y=y
-data_caff_norm$D=D
-
-# step5: perform random-sampling evaluation
-
-x=data_caff_norm$x
-y=data_caff_norm$y
-D=data_caff_norm$D
 ```
 
 **3. Method comparison**
