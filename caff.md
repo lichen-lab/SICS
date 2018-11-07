@@ -17,8 +17,7 @@ library(SICS)
 library(GMPR)
 
 
-# Download library.R from github, which contains functions of competing prediction methods and prediction assessment functions
-source("library.R") 
+
 # load caffeine data
 data('data_caff')
 otu.tab=data_caff$otu.tab
