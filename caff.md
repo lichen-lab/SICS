@@ -17,7 +17,7 @@ library(SICS)
 library(GMPR)
 
 
-# contains functions of competing prediction methods and prediction assessment functions
+# Download library.R from github, which contains functions of competing prediction methods and prediction assessment functions
 source("library.R") 
 # load caffeine data
 data('data_caff')
@@ -78,8 +78,10 @@ times into five folds each time, among which four folds were used for training a
 testing. In the training set, tuning parameter selection was based on CV as in the simulation. R2 and PMSE
 were used as metrics for prediction performance based on the testing set. SLS, Lasso, MCP, Elastic Net and
 Random Forest are compared prediction methods.
+
 ```
-res=eval(x,y,D,family='gaussian',nrep=2,nfolds=5,seed=1234)
+nrep=1 # dataset was randomly divided nrep, default is 50
+res=eval(x,y,D,family='gaussian',nrep=nrep,nfolds=5,seed=1234)
 res
 
 ```
