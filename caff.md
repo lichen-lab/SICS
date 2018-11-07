@@ -27,7 +27,6 @@ tree=data_caff$tree
 
 
 # step1: filter OTU
-
 n=nrow(otu.tab)
 threshold=0.9
 zero.per = colSums(otu.tab==0)/n
