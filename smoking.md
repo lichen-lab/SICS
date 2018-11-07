@@ -58,15 +58,6 @@ x=otu.tab.win
 # step4: transformation
 x[x!=0]=sqrt(x[x!=0])
 y=as.numeric(smoking)-1
-data_smoking_norm=NULL
-data_smoking_norm$x=x
-data_smoking_norm$y=y
-data_smoking_norm$D=D
-
-# step5: perform random-sampling evaluation
-x=data_caff_norm$x
-y=data_caff_norm$y
-D=data_caff_norm$D
 ```
 
 **3. Method comparison**
