@@ -1,14 +1,13 @@
 
-# Introduction of dataset #
-----------------------------
+**1. Introduction of dataset**
+-------------------------------
 The smoking data was from a study of the smoking effect on the human upper respiratory tract micro-
 384 biome. We aimed to predict the smoking status based on the microbiome profile. All
 385 the data processing steps were carried out as described in the previous example. After preprocessing, the
 386 final dataset consisted of 32 non-smokers and 28 smokers with 174 OTUs.
 
-
-# Data processing #
-----------------------------
+**2. Data processing**
+-------------------
 ```
 library(ape)
 library(ade4)
@@ -70,8 +69,8 @@ y=data_caff_norm$y
 D=data_caff_norm$D
 ```
 
-# Methods comparison #
----------------------
+**3. Method comparison**
+-------------------
 To have an objective evaluation of the prediction performance, the dataset was randomly divided fifty
 times into five folds each time, among which four folds were used for training and the remaining one for
 testing. In the training set, tuning parameter selection was based on CV as in the simulation. R2 and PMSE
