@@ -79,6 +79,7 @@ Random Forest are compared prediction methods.
 ```
 # Download library.R from github website, which contains functions of competing prediction methods and prediction assessment functions
 source('library.R')
-res=eval(x,y,D,family='binomial',nrep=5,nfolds=5,seed=1234)
+nrep=1 # dataset was randomly divided nrep, default is 50
+res=eval(x,y,D,family='binomial',nrep=nrep,nfolds=5,seed=1234)
 res
 ```
