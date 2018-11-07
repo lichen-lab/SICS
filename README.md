@@ -81,5 +81,8 @@ library(devtools)
 install_github("lichen-lab/SICS")
 install_github("lichen-lab/GMPR")
 ```
+The tutorial for caffeine data analysis (continuous outcome) is https://github.com/lichen-lab/SICS/blob/master/caff.md
+The tutorial for smoking data analysis (binary outcome) is https://github.com/lichen-lab/SICS/blob/master/smoking.md
+
 
 
