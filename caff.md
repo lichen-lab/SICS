@@ -14,7 +14,9 @@ library(SICS)
 library(GMPR)
 
 
-
+# contains functions of competing prediction methods and prediction assessment functions
+source("library.R") 
+# load caffeine data
 data('data_caff')
 otu.tab=data_caff$otu.tab
 caff=data_caff$caff
@@ -67,5 +69,6 @@ y=data_caff_norm$y
 D=data_caff_norm$D
 
 res=eval(x,y,D,family='gaussian',nrep=2,nfolds=5,seed=1234)
+res
 
 ```
