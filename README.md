@@ -70,7 +70,7 @@ legend("bottomright",legend=paste('AUC:',auc),pch=16)
 <img src="figures/ROC.jpg" style="display: block; margin: auto;" />
 
 
-**3. Real data example**
+*3. Real data example*
 We first demonstrate two real data examples to compare SICS with other prediction methods. The following packages are
 required to be installed before running real data examples.
 ``` r
